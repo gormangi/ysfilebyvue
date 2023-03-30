@@ -25,11 +25,10 @@
 
 <script>
 import ApiMixin from '@/mixins/api.js';
-import MonitoringMixin from '@/mixins/monitoring.js';
 
 export default {
   name: "MixinTest",
-  mixins: [ApiMixin, MonitoringMixin],
+  mixins: [ApiMixin],
   data() {
     return {
       productList: []
