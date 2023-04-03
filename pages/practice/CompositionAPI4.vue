@@ -12,7 +12,7 @@
 </template>
 
 <script>
-import {plusCalculator} from "static/common";
+import {plusCalculator} from "static/js/common";
 
 export default {
   name: "CompositionAPI4",
