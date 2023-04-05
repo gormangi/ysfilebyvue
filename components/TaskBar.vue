@@ -20,7 +20,6 @@ export default {
 
 <style scoped>
 .taskbar {
-  position: fixed;
   top: 0;
   left: 0;
   width: 100%;
@@ -45,7 +44,7 @@ export default {
   background-color: indigo;
   color: darkviolet;
 }
-.taskbar__app:hover {
+.taskbar__app:active {
   background-color: violet;
 }
 </style>
