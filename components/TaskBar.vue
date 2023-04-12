@@ -24,7 +24,7 @@ export default {
   left: 0;
   width: 100%;
   height: 50px;
-  background-color: violet;
+  background-color: white;
   display: flex;
   padding: 0;
 }
@@ -36,13 +36,13 @@ export default {
   margin-right: 15px;
 }
 .taskbar__start:hover {
-  background-color: lightcyan;
+  background-color: chartreuse;
 }
 .taskbar__app {
   height: 100%;
   width: 180px;
-  background-color: indigo;
-  color: darkviolet;
+  background-color: chartreuse;
+  color: violet;
 }
 .taskbar__app:active {
   background-color: violet;

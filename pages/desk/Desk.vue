@@ -19,6 +19,11 @@ export default {
       openWindowObj: [],
     }
   },
+  mounted() {
+    document.addEventListener('click', (e) => {
+      console.log(e);
+    });
+  },
   methods: {
     taskClickEl(el) {
       if (el === 'start') {
